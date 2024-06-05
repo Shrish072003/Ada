@@ -1,0 +1,55 @@
+.app-container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.wallet-buttons button {
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.wallet-buttons button:hover {
+  background-color: #45a049;
+}
+
+.info-container,
+.form-container,
+.internal-transfer-container,
+.balance-container {
+  margin: 20px auto;
+  max-width: 400px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+h1, h2 {
+  color: #333;
+}
